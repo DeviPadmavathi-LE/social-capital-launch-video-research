@@ -32,27 +32,6 @@
       "type": "VIDEO",
       "source_role": "video",
       "verifies": "Airwallex launch video: focuses on $1B ARR narrative using archival founder footage, omits B2B product dashboard entirely."
-    },
-    {
-      "id": "S08",
-      "url": "https://gamma.app",
-      "type": "COMPANY PAGE",
-      "source_role": "video",
-      "verifies": "Gamma launch video emphasizes instant generation over manual formatting."
-    },
-    {
-      "id": "S09",
-      "url": "https://www.deel.com",
-      "type": "COMPANY PAGE",
-      "source_role": "video",
-      "verifies": "Deel launch video focuses on one-click global hiring, omitting legal complexity."
-    },
-    {
-      "id": "S10",
-      "url": "https://poly.ai",
-      "type": "COMPANY PAGE",
-      "source_role": "video",
-      "verifies": "Poly AI focuses on raw conversational audio, omitting standard dashboard UIs."
     }
   ],
   "cases": [
