@@ -32,27 +32,6 @@
       "type": "VIDEO",
       "source_role": "video",
       "verifies": "Airwallex launch video: focuses on $1B ARR narrative using archival founder footage, omits B2B product dashboard entirely."
-    },
-    {
-      "id": "S08",
-      "url": "https://gamma.app",
-      "type": "COMPANY PAGE",
-      "source_role": "video",
-      "verifies": "Gamma launch video emphasizes instant generation over manual formatting."
-    },
-    {
-      "id": "S09",
-      "url": "https://www.deel.com",
-      "type": "COMPANY PAGE",
-      "source_role": "video",
-      "verifies": "Deel launch video focuses on one-click global hiring, omitting legal complexity."
-    },
-    {
-      "id": "S10",
-      "url": "https://poly.ai",
-      "type": "COMPANY PAGE",
-      "source_role": "video",
-      "verifies": "Poly AI focuses on raw conversational audio, omitting standard dashboard UIs."
     }
   ],
   "cases": [
@@ -68,9 +47,7 @@
       "observation": "The video shows the product interface operating in real time, but the person speaking is never shown on screen.",
       "interpretation": "By removing the human, the video forces the viewer to stare exclusively at the UI speed, making the product's behavior the undeniable proof.",
       "interesting": "It challenges the standard 'founder-led' launch template by removing the founder visually.",
-      "source_ids": [
-        "S02"
-      ],
+      "source_ids": ["S02"],
       "image": "/images/wispr.png"
     },
     {
@@ -85,9 +62,7 @@
       "observation": "The video shows animated audio waveforms reacting in real-time, but no human operators or software dashboards appear.",
       "interpretation": "When the product is invisible infrastructure, human endorsement is weak. Raw system behavior becomes the most credible proof of speed.",
       "interesting": "It uses abstract visualization rather than standard SaaS UI to prove a technical metric.",
-      "source_ids": [
-        "S03"
-      ],
+      "source_ids": ["S03"],
       "image": "/images/cartesia.png"
     },
     {
@@ -102,9 +77,7 @@
       "observation": "The video shows lo-fi archival footage of the founders, but the actual financial software interface is absent.",
       "interpretation": "To make a massive corporate milestone feel earned rather than arrogant, human vulnerability must become the proof, counterbalancing the massive scale.",
       "interesting": "It actively avoids showing the product that generated the milestone.",
-      "source_ids": [
-        "S04"
-      ],
+      "source_ids": ["S04"],
       "image": "/images/airwallex.png"
     }
   ],
@@ -131,3 +104,4 @@
     "still_unknown": "Whether this strategy scales beyond these specific three cases, and if it applies equally to launches that fail to gain viral traction."
   }
 }
+

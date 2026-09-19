@@ -26,7 +26,12 @@
     "engagementNote": "Snapshot captured at time of research (Sep 2026). Exact figures from primary source post.",
     "raiseAmount": null,
     "valuation": null,
-    "keyBackers": ["Founders Fund (Peter Thiel)", "OpenAI executives", "Pika", "Cognition"],
+    "keyBackers": [
+      "Founders Fund (Peter Thiel)",
+      "OpenAI executives",
+      "Pika",
+      "Cognition"
+    ],
     "secondaryDistribution": {
       "verified": true,
       "notes": "Multiple tech influencer posts observed discussing Icon's category claim and Founders Fund backing. Domain acquisition (icon.com for $12M) generated verifiable secondary buzz on X. Specific post URLs not individually captured.",
@@ -62,7 +67,12 @@
     "engagementNote": "Snapshot captured at time of research (Sep 2026). Exact figures from primary source post.",
     "raiseAmount": "$60M total ($23M fresh)",
     "valuation": null,
-    "keyBackers": ["Spark Capital", "Kleiner Perkins", "Meritech Capital", "Greenoaks"],
+    "keyBackers": [
+      "Spark Capital",
+      "Kleiner Perkins",
+      "Meritech Capital",
+      "Greenoaks"
+    ],
     "secondaryDistribution": {
       "verified": true,
       "notes": "Won 'Overall Agentic AI Solution of the Year' in 2025 AI Breakthrough Awards — verifiable secondary recognition. Enterprise press coverage (BusinessWire) confirmed. No specific influencer post cluster verified.",
@@ -98,85 +108,18 @@
     "engagementNote": "Snapshot captured at time of research (Sep 2026). Exact figures from primary source post.",
     "raiseAmount": "$100M",
     "valuation": null,
-    "keyBackers": ["Kleiner Perkins", "Index Ventures", "Lightspeed", "NVIDIA"],
+    "keyBackers": [
+      "Kleiner Perkins",
+      "Index Ventures",
+      "Lightspeed",
+      "NVIDIA"
+    ],
     "secondaryDistribution": {
       "verified": true,
       "notes": "Michelle Lim (Flint co-founder) publicly posted: 'From this day on there are two eras. The world before Sonic 3. And the world after Sonic 3.' Covered by AI Voice Newsletter, The Rundown AI, Hindustan Times. $5K charity bet generated community reply activity.",
       "confidence": "high"
     },
     "researchNotes": "Primary source confirmed via sociallcapital.com/work/cartesia. Anchor post date Oct 28, 2025 (4:00 PM). Secondary creator activity independently confirmed.",
-    "sourceConfidence": "high"
-  },
-  {
-    "id": "deel-oct-2025",
-    "client": "Deel",
-    "clientDescription": "Global HR and payroll platform. $1B+ ARR, 37,000+ businesses, 1.5M workers in 150+ countries.",
-    "clientCategory": "fintech",
-    "date": "2025-10",
-    "displayDate": "October 2025",
-    "platform": "both",
-    "anchorAuthor": "Alex Bouaziz",
-    "anchorHandle": "@Bouazizalex",
-    "anchorPostUrl": "https://x.com/Bouazizalex/status/1978809723727012176",
-    "linkedInPostUrl": "https://www.linkedin.com/posts/alexbouaziz_deel-has-raised-300m-at-a-173b-valuation-activity-7384573205698568193-FtqD",
-    "hookHeadline": "Deel has raised $300M at a $17.3B valuation. We started about 6 years ago, struggling to even make $10K. I've never shared this before because of how embarrassing our start was.",
-    "hookArchetype": "contradiction",
-    "narrativeTension": {
-      "expectation": "$300M raise announcement = triumphant corporate milestone post",
-      "contradiction": "Founder immediately pairs it with 'embarrassing start' — disrupts the expected triumphalism",
-      "proof": "$17.3B valuation, $1B ARR, profitability for 3 years, $100M revenue month in Sep 2025",
-      "outcome": "'The story I'd give to my younger self' — invitation to read the full thread",
-      "tensionPresent": true,
-      "tensionNotes": "Classic contradiction hook: uses a humility signal to earn permission to share the trophy. Forces curiosity: 'how embarrassing could it have been?'"
-    },
-    "likes": 5400,
-    "replies": 465,
-    "engagementNote": "Snapshot captured at time of research (Sep 2026). Exact figures from primary source post.",
-    "raiseAmount": "$300M",
-    "valuation": "$17.3B",
-    "keyBackers": ["Ribbit Capital", "Andreessen Horowitz", "Coatue Management", "General Catalyst"],
-    "secondaryDistribution": {
-      "verified": true,
-      "notes": "Verified secondary coverage from BackScoop, Tech Company News, The SaaS News — all published 'growth breakdown' threads within the launch news cycle. Industry analysts on X published M&A playbook analysis as secondary content.",
-      "confidence": "high"
-    },
-    "researchNotes": "Primary source confirmed via sociallcapital.com/work/deel. Anchor post date Oct 16, 2025 (1:06 PM). Same month as Cartesia — two SC launches in Oct 2025.",
-    "sourceConfidence": "high"
-  },
-  {
-    "id": "gamma-nov-2025",
-    "client": "Gamma",
-    "clientDescription": "AI-powered visual storytelling and presentation platform. $100M ARR with a team of 50.",
-    "clientCategory": "b2b_saas",
-    "date": "2025-11",
-    "displayDate": "November 2025",
-    "platform": "both",
-    "anchorAuthor": "Grant Lee",
-    "anchorHandle": "@thisisgrantlee",
-    "anchorPostUrl": "https://x.com/thisisgrantlee/status/1987880600661889356",
-    "linkedInPostUrl": "https://www.linkedin.com/posts/grantslee_today-as-shared-by-the-new-york-times-we-activity-7393646492839763968-Bws-",
-    "hookHeadline": "Today, as shared by the New York Times, we're announcing our Series B at a $2.1B valuation led by a16z. Reaching $100M ARR, profitably, with a team of just 50 people.",
-    "hookArchetype": "scale_proof",
-    "narrativeTension": {
-      "expectation": "Presentation software is a graveyard category — PowerPoint won decades ago",
-      "contradiction": "$2.1B valuation, $100M ARR, 50 people — metrics that belong to a different kind of company",
-      "proof": "NYT coverage, a16z lead, $2M ARR per employee ratio",
-      "outcome": "Gamma positioned as anti-blitzscale case study. Series B confirmed.",
-      "tensionPresent": true,
-      "tensionNotes": "NYT citation as the opening move is unusual — using press as the authority signal before the founder speaks. Grant Lee recounted 'worst idea I've ever heard' origin story in secondary interviews."
-    },
-    "likes": 2800,
-    "replies": 405,
-    "engagementNote": "Snapshot captured at time of research (Sep 2026). Exact figures from primary source post.",
-    "raiseAmount": "$68M Series B",
-    "valuation": "$2.1B",
-    "keyBackers": ["Andreessen Horowitz (a16z)", "Accel", "Uncork Capital", "South Park Commons"],
-    "secondaryDistribution": {
-      "verified": true,
-      "notes": "Grant Lee appeared on Lenny's Podcast discussing origin story. Gamma's 1,000+ micro-influencer program generated documented secondary posts. NYT coverage itself acted as secondary amplification. 'Worst idea' narrative widely picked up by AI startup commentators.",
-      "confidence": "high"
-    },
-    "researchNotes": "Primary source confirmed via sociallcapital.com/work/gamma. Anchor post date Nov 10, 2025. Gamma's micro-influencer program (1,000+ creators) is the most documented creator strategy of all 9 launches.",
     "sourceConfidence": "high"
   },
   {
@@ -206,49 +149,15 @@
     "engagementNote": "Snapshot captured at time of research (Sep 2026). Highest engagement in the dataset by a significant margin (3.5x next highest).",
     "raiseAmount": "$330M",
     "valuation": "$8B",
-    "keyBackers": ["Not specified in anchor post"],
+    "keyBackers": [
+      "Not specified in anchor post"
+    ],
     "secondaryDistribution": {
       "verified": true,
       "notes": "Covered as a 'founder conviction' case study by 20VC (Harry Stebbings) and TechCrunch. Story of the Stripe negotiation (Patrick Collison negotiated directly with Zhang) generated extensive secondary discussion on X. Multiple 'breakdown' threads published by tech/finance influencers.",
       "confidence": "high"
     },
     "researchNotes": "Primary source confirmed via sociallcapital.com/work/airwallex. Anchor post date Dec 8, 2025 (1:03 PM). Outlier performance: 29.7K likes vs. dataset average of ~8.3K.",
-    "sourceConfidence": "high"
-  },
-  {
-    "id": "polyai-feb-2026",
-    "client": "Poly AI",
-    "clientDescription": "Enterprise voice AI platform. 500M+ customer calls handled. 3,000+ live deployments.",
-    "clientCategory": "ai_infra",
-    "date": "2026-02",
-    "displayDate": "February 2026",
-    "platform": "x",
-    "anchorAuthor": "PolyAI (company account)",
-    "anchorHandle": "@polyaivoice",
-    "anchorPostUrl": "https://x.com/polyaivoice/status/2023789465509015972",
-    "linkedInPostUrl": null,
-    "hookHeadline": "PolyAI has raised $200M from Nvidia, Khosla Ventures, and multiple top VCs. We handle 500M+ calls for Marriott, PG&E, Gordon Ramsay's restaurants, and 3,000 more real deployments.",
-    "hookArchetype": "scale_proof",
-    "narrativeTension": {
-      "expectation": "Enterprise AI voice is theoretical or in limited pilots",
-      "contradiction": "500M calls. Marriott. Gordon Ramsay. $200M raised. This is already at industrial scale.",
-      "proof": "Named clients (Marriott, PG&E, Gordon Ramsay). 3,000 deployments. $200M from NVIDIA + Khosla.",
-      "outcome": "Scale proof: the product is not demo-stage — it's infrastructure.",
-      "tensionPresent": true,
-      "tensionNotes": "Notable: this is the only launch where a company account (not founder) is the anchor poster — @polyaivoice vs individual founder. Still uses first-person-plural narrative style. Gordon Ramsay brand name is the attention hook within the post."
-    },
-    "likes": 4800,
-    "replies": 1500,
-    "engagementNote": "Snapshot captured at time of research (Sep 2026). Highest reply-to-like ratio in Scale/Proof archetype.",
-    "raiseAmount": "$200M total",
-    "valuation": null,
-    "keyBackers": ["NVIDIA", "Khosla Ventures"],
-    "secondaryDistribution": {
-      "verified": true,
-      "notes": "Gordon Ramsay partnership confirmed via PolyAI press materials. Deloitte UK Technology Fast 50 recognition documented. CEO Nikola Mrkšić cited in press re: business strategy. No specific viral influencer thread confirmed for the Feb 2026 X post.",
-      "confidence": "medium"
-    },
-    "researchNotes": "Primary source confirmed via sociallcapital.com/work/poly-ai. Anchor post date Feb 17, 2026. Only company-account anchor post in dataset — not publicly verified at founder personal account level.",
     "sourceConfidence": "high"
   },
   {
@@ -278,7 +187,10 @@
     "engagementNote": "Snapshot captured at time of research (Sep 2026). Highest reply count in the dataset.",
     "raiseAmount": null,
     "valuation": "$2B (Aug 2026 Series B, post this launch)",
-    "keyBackers": ["Menlo Ventures", "Notable Capital"],
+    "keyBackers": [
+      "Menlo Ventures",
+      "Notable Capital"
+    ],
     "secondaryDistribution": {
       "verified": true,
       "notes": "Multiple YouTube creators posted 'testing the Porsche challenge' videos (confirmed via YouTube search). Tech influencers on Medium and toolsherd.in covered the Android launch. Forbes and Forbes India reported on the Porsche marketing tactic. ProductHunt launch page documented.",
@@ -314,7 +226,13 @@
     "engagementNote": "Snapshot captured at time of research (Sep 2026). Reply-to-like ratio (16.7%) is second highest in the dataset after Wispr.",
     "raiseAmount": "$20M",
     "valuation": null,
-    "keyBackers": ["Foundation Capital", "Matei Zaharia (Databricks)", "Guillermo Rauch (Vercel)", "Dylan Field (Figma)", "Drew Houston (Dropbox)"],
+    "keyBackers": [
+      "Foundation Capital",
+      "Matei Zaharia (Databricks)",
+      "Guillermo Rauch (Vercel)",
+      "Dylan Field (Figma)",
+      "Drew Houston (Dropbox)"
+    ],
     "secondaryDistribution": {
       "verified": true,
       "notes": "Engineering influencers debated 'Engineering World Model' claim on X (contextgraph.tech community). XMPro published technical critique. YouTube video documented Context Graphs thesis. Secondary discussion was substantive but skeptical — still generated engagement.",
