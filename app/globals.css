@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+:root {
+  /* Pastel Blue Background (Slightly Darker) */
+  --bg: #D4DFE8; 
+  --surface: #FFFFFF; 
+  --surface-hover: #F0F4F8; 
+  --border: #CCD0CF; 
+  --border-hover: #9BA8AB; 
+  
+  /* Dark Navy Text */
+  --text-main: #06141B; 
+  --text-muted: #4A5C6A; 
+  --text-dim: #9BA8AB; 
+  
+  --accent: #11212D; 
+  --accent-light: #D4DFE8;
+  
+  --font-sans: var(--font-geist), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Elegant subtle dot grid */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(rgba(6, 20, 27, 0.1) 1px, transparent 1px);
+  background-size: 24px 24px;
+  mask-image: radial-gradient(circle at center, black 50%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle at center, black 50%, transparent 100%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Ambient light wash */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(255,255,255,0.7) 0%, rgba(212,223,232,0) 100%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+::selection {
+  background: var(--text-main);
+  color: var(--surface);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px) saturate(1.5);
+  -webkit-backdrop-filter: blur(20px) saturate(1.5);
+  border-bottom: 1px solid rgba(6, 20, 27, 0.05);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(6, 20, 27, 0.06);
+  box-shadow: 
+    inset 0 1px 0 rgba(255,255,255,1),
+    0 4px 24px -4px rgba(6, 20, 27, 0.04),
+    0 16px 40px -8px rgba(6, 20, 27, 0.02);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #06141B 0%, #4A5C6A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.premium-shadow {
+  box-shadow: 
+    0 1px 2px rgba(0, 0, 0, 0.2), 
+    0 8px 24px -4px rgba(0, 0, 0, 0.2), 
+    0 16px 32px -8px rgba(0, 0, 0, 0.15);
+}
+
+/* Technical decorative crosshairs */
+.crosshair {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  pointer-events: none;
+}
+.crosshair::before, .crosshair::after {
+  content: "";
+  position: absolute;
+  background: rgba(204,208,207,0.15);
+}
+.crosshair::before {
+  top: 4px; left: 0; width: 9px; height: 1px;
+}
+.crosshair::after {
+  top: 0; left: 4px; width: 1px; height: 9px;
+}

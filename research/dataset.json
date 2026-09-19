@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "description": "Investigation into how Social Capital turns a product/business claim into a launch story through video.",
+    "last_updated": "2026-09-18",
+    "methodology": "Strictly public evidence."
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.sociallcapital.com/careers/head-of-growth",
+      "type": "COMPANY PAGE",
+      "source_role": "case_context",
+      "verifies": "Social Capital directs animations second-by-second for viral launches."
+    },
+    {
+      "id": "S02",
+      "url": "https://x.com/tankots/status/2025981424470479008",
+      "type": "VIDEO",
+      "source_role": "video",
+      "verifies": "Wispr launch video: demonstrates UI generating text, omits human speaker, focuses purely on product speed."
+    },
+    {
+      "id": "S03",
+      "url": "https://x.com/krandiash/status/1983202316397453676",
+      "type": "VIDEO",
+      "source_role": "video",
+      "verifies": "Cartesia launch video: visualizes API latency through audio waveforms, omits human actors and software UI."
+    },
+    {
+      "id": "S04",
+      "url": "https://www.youtube.com/results?search_query=Airwallex+From+Coffee+Shop+to+%248+Billion+CNBC+Make+It",
+      "type": "VIDEO",
+      "source_role": "video",
+      "verifies": "Airwallex launch video: focuses on $1B ARR narrative using archival founder footage, omits B2B product dashboard entirely."
+    }
+  ],
+  "cases": [
+    {
+      "id": "CASE-WISPR",
+      "company": "Wispr Flow",
+      "product": "An AI voice dictation app claiming to be 3x faster than typing.",
+      "claim": "This product is dramatically faster than any alternative.",
+      "problem": "Speed is an abstract claim. If a founder just explains it, it's easily dismissed as marketing noise.",
+      "creative_decision": "The video abandons standard explanation and presents a real-time screen recording of the interface generating text at high speed.",
+      "proof": "Direct product behavior.",
+      "omitted": "The human speaker.",
+      "observation": "The video shows the product interface operating in real time, but the person speaking is never shown on screen.",
+      "interpretation": "By removing the human, the video forces the viewer to stare exclusively at the UI speed, making the product's behavior the undeniable proof.",
+      "interesting": "It challenges the standard 'founder-led' launch template by removing the founder visually.",
+      "source_ids": ["S02"],
+      "image": "/images/wispr.png"
+    },
+    {
+      "id": "CASE-CARTESIA",
+      "company": "Cartesia",
+      "product": "A real-time AI voice API with sub-90ms latency.",
+      "claim": "This infrastructure is virtually instant.",
+      "problem": "API latency is invisible. It usually looks like boring backend code or a generic technical architecture diagram.",
+      "creative_decision": "The video visualizes the latency through reactive audio waveforms responding instantly to voice prompts.",
+      "proof": "Raw system output.",
+      "omitted": "Human actors and traditional software UI.",
+      "observation": "The video shows animated audio waveforms reacting in real-time, but no human operators or software dashboards appear.",
+      "interpretation": "When the product is invisible infrastructure, human endorsement is weak. Raw system behavior becomes the most credible proof of speed.",
+      "interesting": "It uses abstract visualization rather than standard SaaS UI to prove a technical metric.",
+      "source_ids": ["S03"],
+      "image": "/images/cartesia.png"
+    },
+    {
+      "id": "CASE-AIRWALLEX",
+      "company": "Airwallex",
+      "product": "A global financial platform.",
+      "claim": "This company has reached an extraordinary level of global scale ($1B ARR).",
+      "problem": "Massive B2B revenue numbers feel abstract, corporate, and distant.",
+      "creative_decision": "The video ignores the software entirely to focus on archival footage of the founders in a tiny room during their early days.",
+      "proof": "Human narrative contrast.",
+      "omitted": "The B2B software dashboard entirely.",
+      "observation": "The video shows lo-fi archival footage of the founders, but the actual financial software interface is absent.",
+      "interpretation": "To make a massive corporate milestone feel earned rather than arrogant, human vulnerability must become the proof, counterbalancing the massive scale.",
+      "interesting": "It actively avoids showing the product that generated the milestone.",
+      "source_ids": ["S04"],
+      "image": "/images/airwallex.png"
+    }
+  ],
+  "finding": {
+    "question": "What changes when Social Capital launches very different products?",
+    "what_changes": "The visual focus of the video. It shifts rapidly between product UI (Wispr), abstract system behavior (Cartesia), and raw founder narrative (Airwallex).",
+    "what_stays": "The omission strategy. Every single launch video deliberately leaves out a 'standard' element of a tech video to isolate the core proof.",
+    "led_to_ask": "Does the communication problem dictate what gets removed from the video?",
+    "finding": "Social Capital does not use a fixed visual template. The form of proof changes according to what the launch needs to make believable, and whatever distracts from that proof is aggressively omitted.",
+    "why_i_think_this": [
+      {
+        "case_id": "CASE-WISPR",
+        "evidence": "To prove speed, it removes the human and shows only UI."
+      },
+      {
+        "case_id": "CASE-CARTESIA",
+        "evidence": "To prove latency, it removes the UI and shows only system output."
+      },
+      {
+        "case_id": "CASE-AIRWALLEX",
+        "evidence": "To prove massive scale is earned, it removes the product and shows only vulnerable human history."
+      }
+    ],
+    "still_unknown": "Whether this strategy scales beyond these specific three cases, and if it applies equally to launches that fail to gain viral traction."
+  }
+}
