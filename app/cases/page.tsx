@@ -107,7 +107,7 @@ export default function EvidencePage() {
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.95, opacity: 0, y: 20 }}
               transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-              className="w-full max-w-6xl h-full max-h-[85vh] rounded-xl shadow-2xl flex flex-col md:flex-row overflow-hidden relative"
+              className="w-full max-w-6xl h-[85vh] md:max-h-[85vh] rounded-xl shadow-2xl flex flex-row overflow-x-auto snap-x snap-mandatory hide-scrollbar md:overflow-hidden relative"
               style={{ backgroundColor: 'var(--bg)', boxShadow: '0 25px 50px -12px rgba(0,0,0,0.5)' }}
             >
               {/* Close Button */}
@@ -119,7 +119,7 @@ export default function EvidencePage() {
               </button>
 
               {/* LEFT PAGE: The Breakdown Timeline */}
-              <div className="w-full md:w-1/2 h-full overflow-y-auto p-6 md:p-10 relative z-10 border-r border-[#06141B]/10 bg-[#EAF2F8]">
+              <div className="w-full shrink-0 snap-start md:w-1/2 h-full overflow-y-auto p-6 md:p-10 relative z-10 border-r border-[#06141B]/10 bg-[#EAF2F8]">
                 <p className="text-[10px] font-mono font-bold uppercase tracking-[0.2em] text-[#253745] mb-2">CASE FILE // {activeCase.company}</p>
                 
                 <h4 className="text-[10px] font-mono font-bold uppercase tracking-widest text-[#253745] mb-2 mt-4">The Claim</h4>
@@ -155,7 +155,7 @@ export default function EvidencePage() {
               </div>
 
               {/* RIGHT PAGE: The Deep Analysis */}
-              <div className="w-full md:w-1/2 h-full overflow-y-auto p-6 md:p-10 relative z-20 bg-[#EAF2F8]">
+              <div className="w-full shrink-0 snap-start md:w-1/2 h-full overflow-y-auto p-6 md:p-10 relative z-20 bg-[#EAF2F8]">
                 <h4 className="text-[10px] font-mono font-bold uppercase tracking-[0.2em] text-[#253745] mb-6 border-b border-[#06141B] pb-3">Investigator's Analysis</h4>
                 
                 <div className="prose prose-neutral max-w-none flex flex-col h-[calc(100%-3rem)]">

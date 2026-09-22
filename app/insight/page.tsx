@@ -78,37 +78,107 @@ export default function InsightPage() {
         <p className="text-xs font-mono font-bold uppercase tracking-widest mb-6 text-[#4A5C6A] text-left">
           The Pattern In 3 Cases
         </p>
-        <div className="bg-white border border-[#CCD0CF] rounded-2xl overflow-hidden shadow-sm overflow-x-auto">
-          <table className="w-full text-left border-collapse min-w-[700px]">
-            <thead>
-              <tr className="bg-[#EAF2F8] border-b border-[#CCD0CF]">
-                <th className="p-5 text-[10px] font-mono font-bold tracking-[0.2em] text-[#253745] uppercase">Case</th>
-                <th className="p-5 text-[10px] font-mono font-bold tracking-[0.2em] text-[#253745] uppercase">What needs to land</th>
-                <th className="p-5 text-[10px] font-mono font-bold tracking-[0.2em] text-[#253745] uppercase">What gets removed</th>
-                <th className="p-5 text-[10px] font-mono font-bold tracking-[0.2em] text-[#253745] uppercase">What remains</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-[#E3EAEF] hover:bg-[#F5F8FA] transition-colors cursor-default">
-                <td className="p-5 font-bold text-[#06141B] whitespace-nowrap">Wispr Flow</td>
-                <td className="p-5 text-sm font-medium text-[#4A5C6A]">The product is fast</td>
-                <td className="p-5 text-sm font-medium text-[#4A5C6A]">Human presenter</td>
-                <td className="p-5 text-sm font-bold text-[#06141B]">Product working in real time</td>
-              </tr>
-              <tr className="border-b border-[#E3EAEF] hover:bg-[#F5F8FA] transition-colors cursor-default">
-                <td className="p-5 font-bold text-[#06141B] whitespace-nowrap">Cartesia</td>
-                <td className="p-5 text-sm font-medium text-[#4A5C6A]">The interaction is genuinely responsive</td>
-                <td className="p-5 text-sm font-medium text-[#4A5C6A]">Conventional UI / human presence</td>
-                <td className="p-5 text-sm font-bold text-[#06141B]">Audio interaction itself</td>
-              </tr>
-              <tr className="hover:bg-[#F5F8FA] transition-colors cursor-default">
-                <td className="p-5 font-bold text-[#06141B] whitespace-nowrap">Airwallex</td>
-                <td className="p-5 text-sm font-medium text-[#4A5C6A]">The company has come a long way</td>
-                <td className="p-5 text-sm font-medium text-[#4A5C6A]">Product interface</td>
-                <td className="p-5 text-sm font-bold text-[#06141B]">Founder history + archival story</td>
-              </tr>
-            </tbody>
-          </table>
+        <div className="bg-white md:border border-[#CCD0CF] md:rounded-2xl shadow-sm">
+          
+          {/* Mobile View: Stacked Cards */}
+          <div className="md:hidden space-y-6">
+            {/* Card 1 */}
+            <div className="bg-white border border-[#CCD0CF] rounded-2xl p-5 shadow-sm space-y-4 relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-1 h-full bg-[#11212D]"></div>
+              <div>
+                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Case</p>
+                <p className="font-bold text-[#06141B] text-lg">Wispr Flow</p>
+              </div>
+              <div>
+                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What needs to land</p>
+                <p className="text-sm font-medium text-[#06141B]">The product is fast</p>
+              </div>
+              <div>
+                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What gets removed</p>
+                <p className="text-sm font-medium text-[#06141B]">Human presenter</p>
+              </div>
+              <div>
+                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What remains</p>
+                <p className="text-sm font-bold text-[#06141B]">Product working in real time</p>
+              </div>
+            </div>
+
+            {/* Card 2 */}
+            <div className="bg-white border border-[#CCD0CF] rounded-2xl p-5 shadow-sm space-y-4 relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-1 h-full bg-[#11212D]"></div>
+              <div>
+                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Case</p>
+                <p className="font-bold text-[#06141B] text-lg">Cartesia</p>
+              </div>
+              <div>
+                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What needs to land</p>
+                <p className="text-sm font-medium text-[#06141B]">The interaction is genuinely responsive</p>
+              </div>
+              <div>
+                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What gets removed</p>
+                <p className="text-sm font-medium text-[#06141B]">Conventional UI / human presence</p>
+              </div>
+              <div>
+                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What remains</p>
+                <p className="text-sm font-bold text-[#06141B]">Audio interaction itself</p>
+              </div>
+            </div>
+
+            {/* Card 3 */}
+            <div className="bg-white border border-[#CCD0CF] rounded-2xl p-5 shadow-sm space-y-4 relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-1 h-full bg-[#11212D]"></div>
+              <div>
+                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Case</p>
+                <p className="font-bold text-[#06141B] text-lg">Airwallex</p>
+              </div>
+              <div>
+                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What needs to land</p>
+                <p className="text-sm font-medium text-[#06141B]">The company has come a long way</p>
+              </div>
+              <div>
+                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What gets removed</p>
+                <p className="text-sm font-medium text-[#06141B]">Product interface</p>
+              </div>
+              <div>
+                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What remains</p>
+                <p className="text-sm font-bold text-[#06141B]">Founder history + archival story</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Desktop View: Table */}
+          <div className="hidden md:block overflow-hidden rounded-2xl">
+            <table className="w-full text-left border-collapse min-w-[700px]">
+              <thead>
+                <tr className="bg-[#EAF2F8] border-b border-[#CCD0CF]">
+                  <th className="p-5 text-[10px] font-mono font-bold tracking-[0.2em] text-[#253745] uppercase">Case</th>
+                  <th className="p-5 text-[10px] font-mono font-bold tracking-[0.2em] text-[#253745] uppercase">What needs to land</th>
+                  <th className="p-5 text-[10px] font-mono font-bold tracking-[0.2em] text-[#253745] uppercase">What gets removed</th>
+                  <th className="p-5 text-[10px] font-mono font-bold tracking-[0.2em] text-[#253745] uppercase">What remains</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-[#E3EAEF] hover:bg-[#F5F8FA] transition-colors cursor-default">
+                  <td className="p-5 font-bold text-[#06141B] whitespace-nowrap">Wispr Flow</td>
+                  <td className="p-5 text-sm font-medium text-[#4A5C6A]">The product is fast</td>
+                  <td className="p-5 text-sm font-medium text-[#4A5C6A]">Human presenter</td>
+                  <td className="p-5 text-sm font-bold text-[#06141B]">Product working in real time</td>
+                </tr>
+                <tr className="border-b border-[#E3EAEF] hover:bg-[#F5F8FA] transition-colors cursor-default">
+                  <td className="p-5 font-bold text-[#06141B] whitespace-nowrap">Cartesia</td>
+                  <td className="p-5 text-sm font-medium text-[#4A5C6A]">The interaction is genuinely responsive</td>
+                  <td className="p-5 text-sm font-medium text-[#4A5C6A]">Conventional UI / human presence</td>
+                  <td className="p-5 text-sm font-bold text-[#06141B]">Audio interaction itself</td>
+                </tr>
+                <tr className="hover:bg-[#F5F8FA] transition-colors cursor-default">
+                  <td className="p-5 font-bold text-[#06141B] whitespace-nowrap">Airwallex</td>
+                  <td className="p-5 text-sm font-medium text-[#4A5C6A]">The company has come a long way</td>
+                  <td className="p-5 text-sm font-medium text-[#4A5C6A]">Product interface</td>
+                  <td className="p-5 text-sm font-bold text-[#06141B]">Founder history + archival story</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </motion.div>
 
