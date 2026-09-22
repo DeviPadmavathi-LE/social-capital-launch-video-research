@@ -78,73 +78,76 @@ export default function InsightPage() {
         <p className="text-xs font-mono font-bold uppercase tracking-widest mb-6 text-[#4A5C6A] text-left">
           The Pattern In 3 Cases
         </p>
-        <div className="bg-white md:border border-[#CCD0CF] md:rounded-2xl shadow-sm">
-          
-          {/* Mobile View: Stacked Cards */}
-          <div className="md:hidden space-y-6">
-            {/* Card 1 */}
-            <div className="bg-white border border-[#CCD0CF] rounded-2xl p-5 shadow-sm space-y-4 relative overflow-hidden">
-              <div className="absolute top-0 left-0 w-1 h-full bg-[#11212D]"></div>
-              <div>
-                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Case</p>
-                <p className="font-bold text-[#06141B] text-lg">Wispr Flow</p>
+          <div className="bg-transparent md:bg-white md:border border-[#CCD0CF] md:rounded-2xl shadow-none md:shadow-sm">
+            
+            {/* Mobile View: Stacked Archival Tickets */}
+            <div className="md:hidden space-y-6">
+              {/* Card 1 */}
+              <div className="bg-[#F8FAFC] border border-[#CCD0CF] rounded-sm p-6 shadow-sm relative overflow-hidden flex flex-col gap-4">
+                <div className="absolute -bottom-6 -right-4 text-[120px] font-mono font-black text-[#06141B]/[0.03] leading-none pointer-events-none select-none tracking-tighter">01</div>
+                
+                <div className="border-b border-dashed border-[#CCD0CF] pb-4">
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Case File</p>
+                  <p className="font-bold text-[#06141B] text-xl font-mono uppercase tracking-tight">Wispr Flow</p>
+                </div>
+                <div className="border-b border-dashed border-[#CCD0CF] pb-4">
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Target Belief</p>
+                  <p className="text-sm font-medium text-[#06141B]">The product is fast</p>
+                </div>
+                <div className="border-b border-dashed border-[#CCD0CF] pb-4">
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Strategic Cut</p>
+                  <p className="text-sm font-medium text-[#06141B] opacity-60 line-through decoration-1 decoration-red-500/50">Human presenter</p>
+                </div>
+                <div>
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Undeniable Proof</p>
+                  <p className="text-sm font-bold text-[#06141B]">Product working in real time</p>
+                </div>
               </div>
-              <div>
-                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What needs to land</p>
-                <p className="text-sm font-medium text-[#06141B]">The product is fast</p>
-              </div>
-              <div>
-                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What gets removed</p>
-                <p className="text-sm font-medium text-[#06141B]">Human presenter</p>
-              </div>
-              <div>
-                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What remains</p>
-                <p className="text-sm font-bold text-[#06141B]">Product working in real time</p>
-              </div>
-            </div>
 
-            {/* Card 2 */}
-            <div className="bg-white border border-[#CCD0CF] rounded-2xl p-5 shadow-sm space-y-4 relative overflow-hidden">
-              <div className="absolute top-0 left-0 w-1 h-full bg-[#11212D]"></div>
-              <div>
-                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Case</p>
-                <p className="font-bold text-[#06141B] text-lg">Cartesia</p>
+              {/* Card 2 */}
+              <div className="bg-[#F8FAFC] border border-[#CCD0CF] rounded-sm p-6 shadow-sm relative overflow-hidden flex flex-col gap-4">
+                <div className="absolute -bottom-6 -right-4 text-[120px] font-mono font-black text-[#06141B]/[0.03] leading-none pointer-events-none select-none tracking-tighter">02</div>
+                
+                <div className="border-b border-dashed border-[#CCD0CF] pb-4">
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Case File</p>
+                  <p className="font-bold text-[#06141B] text-xl font-mono uppercase tracking-tight">Cartesia</p>
+                </div>
+                <div className="border-b border-dashed border-[#CCD0CF] pb-4">
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Target Belief</p>
+                  <p className="text-sm font-medium text-[#06141B]">The interaction is genuinely responsive</p>
+                </div>
+                <div className="border-b border-dashed border-[#CCD0CF] pb-4">
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Strategic Cut</p>
+                  <p className="text-sm font-medium text-[#06141B] opacity-60 line-through decoration-1 decoration-red-500/50">Conventional UI / human presence</p>
+                </div>
+                <div>
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Undeniable Proof</p>
+                  <p className="text-sm font-bold text-[#06141B]">Audio interaction itself</p>
+                </div>
               </div>
-              <div>
-                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What needs to land</p>
-                <p className="text-sm font-medium text-[#06141B]">The interaction is genuinely responsive</p>
-              </div>
-              <div>
-                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What gets removed</p>
-                <p className="text-sm font-medium text-[#06141B]">Conventional UI / human presence</p>
-              </div>
-              <div>
-                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What remains</p>
-                <p className="text-sm font-bold text-[#06141B]">Audio interaction itself</p>
-              </div>
-            </div>
 
-            {/* Card 3 */}
-            <div className="bg-white border border-[#CCD0CF] rounded-2xl p-5 shadow-sm space-y-4 relative overflow-hidden">
-              <div className="absolute top-0 left-0 w-1 h-full bg-[#11212D]"></div>
-              <div>
-                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Case</p>
-                <p className="font-bold text-[#06141B] text-lg">Airwallex</p>
+              {/* Card 3 */}
+              <div className="bg-[#F8FAFC] border border-[#CCD0CF] rounded-sm p-6 shadow-sm relative overflow-hidden flex flex-col gap-4">
+                <div className="absolute -bottom-6 -right-4 text-[120px] font-mono font-black text-[#06141B]/[0.03] leading-none pointer-events-none select-none tracking-tighter">03</div>
+                
+                <div className="border-b border-dashed border-[#CCD0CF] pb-4">
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Case File</p>
+                  <p className="font-bold text-[#06141B] text-xl font-mono uppercase tracking-tight">Airwallex</p>
+                </div>
+                <div className="border-b border-dashed border-[#CCD0CF] pb-4">
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Target Belief</p>
+                  <p className="text-sm font-medium text-[#06141B]">The company has come a long way</p>
+                </div>
+                <div className="border-b border-dashed border-[#CCD0CF] pb-4">
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Strategic Cut</p>
+                  <p className="text-sm font-medium text-[#06141B] opacity-60 line-through decoration-1 decoration-red-500/50">Product interface</p>
+                </div>
+                <div>
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">Undeniable Proof</p>
+                  <p className="text-sm font-bold text-[#06141B]">Founder history + archival story</p>
+                </div>
               </div>
-              <div>
-                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What needs to land</p>
-                <p className="text-sm font-medium text-[#06141B]">The company has come a long way</p>
-              </div>
-              <div>
-                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What gets removed</p>
-                <p className="text-sm font-medium text-[#06141B]">Product interface</p>
-              </div>
-              <div>
-                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1">What remains</p>
-                <p className="text-sm font-bold text-[#06141B]">Founder history + archival story</p>
-              </div>
-            </div>
-          </div>
+            </div></div>
 
           {/* Desktop View: Table */}
           <div className="hidden md:block overflow-hidden rounded-2xl">
