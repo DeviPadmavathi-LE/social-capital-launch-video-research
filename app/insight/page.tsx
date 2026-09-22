@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -43,8 +43,8 @@ export default function InsightPage() {
           </div>
           
           <div className="text-2xl text-[#9BA8AB] flex items-center justify-center">
-            <span className="md:hidden">↓</span>
-            <span className="hidden md:inline">→</span>
+            <span className="md:hidden">â†“</span>
+            <span className="hidden md:inline">â†’</span>
           </div>
           
           {/* Step 2 */}
@@ -55,8 +55,8 @@ export default function InsightPage() {
           </div>
           
           <div className="text-2xl text-[#06141B] font-bold flex items-center justify-center">
-            <span className="md:hidden">↓</span>
-            <span className="hidden md:inline">→</span>
+            <span className="md:hidden">â†“</span>
+            <span className="hidden md:inline">â†’</span>
           </div>
           
           {/* Step 3 */}
@@ -147,7 +147,7 @@ export default function InsightPage() {
                   <p className="text-sm font-bold text-[#06141B]">Founder history + archival story</p>
                 </div>
               </div>
-            </div></div>
+            </div>
 
           {/* Desktop View: Table */}
           <div className="hidden md:block overflow-hidden rounded-2xl">
@@ -227,15 +227,15 @@ export default function InsightPage() {
         <div className="grid gap-4">
           <a href="https://x.com/tankots/status/2025981424470479008" target="_blank" rel="noopener noreferrer" className="group flex justify-between items-center p-6 bg-white border border-[#CCD0CF] rounded-xl hover:bg-[#EAF2F8] transition-colors shadow-sm">
              <span className="font-bold text-[#06141B] tracking-wide">WISPR FLOW</span>
-             <span className="text-xs font-mono font-bold tracking-widest text-[#4A5C6A] group-hover:text-[#06141B] flex items-center gap-2">View evidence <span className="text-lg leading-none">↗</span></span>
+             <span className="text-xs font-mono font-bold tracking-widest text-[#4A5C6A] group-hover:text-[#06141B] flex items-center gap-2">View evidence <span className="text-lg leading-none">â†—</span></span>
           </a>
           <a href="https://x.com/krandiash/status/1983202316397453676" target="_blank" rel="noopener noreferrer" className="group flex justify-between items-center p-6 bg-white border border-[#CCD0CF] rounded-xl hover:bg-[#EAF2F8] transition-colors shadow-sm">
              <span className="font-bold text-[#06141B] tracking-wide">CARTESIA</span>
-             <span className="text-xs font-mono font-bold tracking-widest text-[#4A5C6A] group-hover:text-[#06141B] flex items-center gap-2">View evidence <span className="text-lg leading-none">↗</span></span>
+             <span className="text-xs font-mono font-bold tracking-widest text-[#4A5C6A] group-hover:text-[#06141B] flex items-center gap-2">View evidence <span className="text-lg leading-none">â†—</span></span>
           </a>
           <a href="https://www.youtube.com/results?search_query=Airwallex+From+Coffee+Shop+to+%248+Billion+CNBC+Make+It" target="_blank" rel="noopener noreferrer" className="group flex justify-between items-center p-6 bg-white border border-[#CCD0CF] rounded-xl hover:bg-[#EAF2F8] transition-colors shadow-sm">
              <span className="font-bold text-[#06141B] tracking-wide">AIRWALLEX</span>
-             <span className="text-xs font-mono font-bold tracking-widest text-[#4A5C6A] group-hover:text-[#06141B] flex items-center gap-2">View evidence <span className="text-lg leading-none">↗</span></span>
+             <span className="text-xs font-mono font-bold tracking-widest text-[#4A5C6A] group-hover:text-[#06141B] flex items-center gap-2">View evidence <span className="text-lg leading-none">â†—</span></span>
           </a>
         </div>
       </motion.div>
@@ -245,13 +245,13 @@ export default function InsightPage() {
           href="/cases"
           className="group text-xs font-mono font-bold uppercase tracking-widest text-[#4A5C6A] hover:text-[#06141B] transition-colors flex items-center gap-2"
         >
-          <span className="transition-transform group-hover:-translate-x-1">←</span> Back to Case Library
+          <span className="transition-transform group-hover:-translate-x-1">â†</span> Back to Case Library
         </Link>
         <Link
           href="/sources"
           className="inline-flex items-center gap-2 px-6 py-3 bg-[#06141B] text-white rounded-xl text-xs font-mono font-bold uppercase tracking-widest hover:bg-neutral-800 transition-all premium-shadow group"
         >
-          View Source Data <span className="transition-transform group-hover:translate-x-1">→</span>
+          View Source Data <span className="transition-transform group-hover:translate-x-1">â†’</span>
         </Link>
       </div>
     </div>
