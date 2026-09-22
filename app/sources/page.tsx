@@ -22,8 +22,45 @@ export default function SourcesPage() {
         </p>
       </div>
 
-      <div className="bg-white rounded-[2rem] overflow-hidden relative z-10 border border-[#CCD0CF] premium-shadow">
-        <div className="overflow-x-auto">
+      <div className="relative z-10">
+        {/* Mobile View: Stacked Cards */}
+        <div className="md:hidden space-y-4">
+          {sources.map((src) => (
+            <div key={src.id} className="bg-white border border-[#CCD0CF] rounded-2xl p-5 shadow-sm space-y-4 relative overflow-hidden group hover:bg-[#11212D] transition-colors duration-500">
+              <div className="absolute top-0 left-0 w-1 h-full bg-[#11212D] group-hover:bg-white transition-colors duration-500"></div>
+              
+              <div className="flex justify-between items-start">
+                <div>
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1 group-hover:text-[#9BA8AB] transition-colors duration-300">ID</p>
+                  <p className="font-mono font-bold text-[#06141B] group-hover:text-white transition-colors duration-300">{src.id}</p>
+                </div>
+                <div className="text-right">
+                  <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1 group-hover:text-[#9BA8AB] transition-colors duration-300">Asset Type</p>
+                  <p className="text-xs font-mono uppercase tracking-widest text-[#06141B] group-hover:text-white transition-colors duration-300">{src.type}</p>
+                </div>
+              </div>
+              
+              <div>
+                <p className="text-[10px] font-mono font-bold tracking-[0.2em] text-[#4A5C6A] uppercase mb-1 group-hover:text-[#9BA8AB] transition-colors duration-300">Verifies</p>
+                <p className="text-sm font-medium text-[#4A5C6A] group-hover:text-[#CCD0CF] transition-colors duration-300">{src.verifies}</p>
+              </div>
+              
+              <div className="pt-2">
+                <a 
+                  href={src.url} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-full justify-center inline-flex items-center gap-2 px-5 py-3 bg-white border border-[#CCD0CF] text-[#06141B] rounded-xl text-[10px] font-mono font-bold uppercase tracking-[0.2em] transition-all shadow-sm group-hover:bg-[#253745] group-hover:border-[#253745] group-hover:text-white group-hover:shadow-lg"
+                >
+                  Open <span className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5">↗</span>
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Desktop View: Table */}
+        <div className="hidden md:block bg-white rounded-[2rem] overflow-hidden border border-[#CCD0CF] premium-shadow">
           <table className="w-full text-left border-collapse min-w-[640px]">
             <thead>
               <tr className="bg-[#E3EAEF]/50 border-b border-[#CCD0CF]">
